@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ayuda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container" id="Cabecera">
+            <h1>Exámen Segunda Parcial</h1>
+            <h1>Seguridad de Datos</h1>
+        </div>
+        <div class="container" id="ParteCifrado">
+            <input type="text" id="textCifrar" placeholder="Mensaje a Cifrar">
+            <button class="button button5" onclick="cifrado()">Encrypt</button>
+            <input type="text" id="textResCifrar" placeholder="Mensaje Cifrado" >
+        </div>
+
+        <p></p>
+        
+        <div class="container" id="ParteDescifrado">
+            <input type="text" id="textDescifrar" maxlength="20" placeholder="Mensaje a Descifrar">
+            <button class="button button5" onclick="descifrado()">Decrypt</button>
+            <input type="text" id="textResDescifrar" maxlength="20" placeholder="Mensaje Descifrado">
+        </div>
+        <hr>
+    </div>
+</body>
+</html>
